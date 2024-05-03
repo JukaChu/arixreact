@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="14c00781-fe9c-4fff-a40e-6f2865b2669c" name="Default Changelist" comment="">
+    <list default="true" id="14c00781-fe9c-4fff-a40e-6f2865b2669c" name="Default Changelist" comment="coms">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,18 +81,26 @@
       <option name="presentableId" value="Default" />
       <updated>1714650968249</updated>
       <workItem from="1714650969952" duration="12881000" />
-      <workItem from="1714717776503" duration="20571000" />
+      <workItem from="1714717776503" duration="21814000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="coms" />
+    <option name="LAST_COMMIT_MESSAGE" value="coms" />
+  </component>
   <component name="WindowStateProjectService">
     <state x="1010" y="447" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1714658994986">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1010" y="447" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/-1920.360.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1714658994986" />
+    <state x="905" y="294" key="CommitChangelistDialog2" timestamp="1714750139429">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="905" y="294" key="CommitChangelistDialog2/-1920.360.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1714750139429" />
     <state x="943" y="315" key="search.everywhere.popup" timestamp="1714660063145">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
