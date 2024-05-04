@@ -16,7 +16,7 @@ function App() {
                 <Routes>
                     <Route path='/search' exact element={<Home/>}/>
                     <Route path='/engagement' element={<Engagement/>}/>
-                    <Route path='*' element={<Page404/>}/>
+                    <Route path='*' element={<SearchPage/>}/>
                     <Route path='/' element={<SearchPage/>}/>
                 </Routes>
             </Router>
