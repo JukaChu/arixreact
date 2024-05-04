@@ -1,7 +1,7 @@
 import './app.scss';
 import Home from './components/Pages/Home';
 import React from 'react';
-import {BrowserRouter as Router, Route, Routes, } from "react-router-dom";
+import {BrowserRouter as Router, Route, Routes,} from "react-router-dom";
 import './App.css';
 
 import Engagement from "./components/Pages/Engagement";
@@ -14,10 +14,10 @@ function App() {
         <>
             <Router>
                 <Routes>
-                    <Route path='/' exact element={<Home/>}/>
+                    <Route path='/search' exact element={<Home/>}/>
                     <Route path='/engagement' element={<Engagement/>}/>
                     <Route path='*' element={<Page404/>}/>
-                    <Route path='/search' element={<SearchPage/>}/>
+                    <Route path='/' element={<SearchPage/>}/>
                 </Routes>
             </Router>
         </>

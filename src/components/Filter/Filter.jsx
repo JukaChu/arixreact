@@ -4,6 +4,7 @@ import 'react-range-slider-input/dist/style.css';
 import {useSearchParams} from "react-router-dom";
 import TopTextLi from "../Header/TopTextLi";
 import logo from "../Header/logo-header.svg";
+import ShapesList from "./ShapesList";
 
 
 function handleSubmit(event, type) {
@@ -136,6 +137,8 @@ const Filter = () => {
                             <div className="filter-element">
                                 <p>Shape</p>
 
+
+                                <ShapesList />
 
                             </div>
                         </div>
