@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/arixreact/static/css/main.e41d657e.css",
-    "main.js": "/arixreact/static/js/main.ccaf83ef.js",
+    "main.js": "/arixreact/static/js/main.77a1e8b0.js",
     "static/js/453.a120c663.chunk.js": "/arixreact/static/js/453.a120c663.chunk.js",
     "static/media/Carla.otf": "/arixreact/static/media/Carla.5a7d2853611ca67633f7.otf",
     "static/media/Gotham-BlackItalic.eot": "/arixreact/static/media/Gotham-BlackItalic.87b2fe7f18ebe2095fb3.eot",
@@ -69,7 +69,14 @@
     "static/media/Gotham-Ultra.woff2": "/arixreact/static/media/Gotham-Ultra.2bb4580b9d35b0233567.woff2",
     "static/media/Gotham-Bold.woff2": "/arixreact/static/media/Gotham-Bold.0d0bf56e1e7f61d4cc10.woff2",
     "static/media/logo-header.svg": "/arixreact/static/media/logo-header.feec0c440e98318ad4c942815787e045.svg",
+    "static/media/d3.svg": "/arixreact/static/media/d3.be059aa51458ebfdb871.svg",
+    "static/media/d6.svg": "/arixreact/static/media/d6.7d76870c92c0e443f636.svg",
+    "static/media/d7.svg": "/arixreact/static/media/d7.2be6b22fd9cd257fcf63.svg",
+    "static/media/d1.svg": "/arixreact/static/media/d1.0dfd7cc860f9f0f37284.svg",
+    "static/media/d2.svg": "/arixreact/static/media/d2.02a3a30879026615196d.svg",
+    "static/media/d5.svg": "/arixreact/static/media/d5.b1429303a3d53911336c.svg",
     "static/media/diamond-select.svg": "/arixreact/static/media/diamond-select.df0675a85f9d54346ac92f49d6777d0e.svg",
+    "static/media/d4.svg": "/arixreact/static/media/d4.841c41e75002318e023a.svg",
     "static/media/fav-ic.svg": "/arixreact/static/media/fav-ic.8c78dd9ace8a3051bff45342d53bed5a.svg",
     "static/media/diamond-ic.svg": "/arixreact/static/media/diamond-ic.a180fd7be25cc6433bada3ee3245d6ba.svg",
     "static/media/cart-ic.svg": "/arixreact/static/media/cart-ic.7d0369955967819e24630a413efffb42.svg",
@@ -77,11 +84,11 @@
     "index.html": "/arixreact/index.html",
     "static/media/expand_more.svg": "/arixreact/static/media/expand_more.9196a8473ba42c39c7cd.svg",
     "main.e41d657e.css.map": "/arixreact/static/css/main.e41d657e.css.map",
-    "main.ccaf83ef.js.map": "/arixreact/static/js/main.ccaf83ef.js.map",
+    "main.77a1e8b0.js.map": "/arixreact/static/js/main.77a1e8b0.js.map",
     "453.a120c663.chunk.js.map": "/arixreact/static/js/453.a120c663.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e41d657e.css",
-    "static/js/main.ccaf83ef.js"
+    "static/js/main.77a1e8b0.js"
   ]
 }

@@ -1,0 +1,39 @@
+{
+  "shapes": [
+    {"shape": [
+      {"shapeId": "1"},
+      {"type": "Round"},
+      {"image": "d1.svg"}
+    ]},
+    {"shape": [
+      {"shapeId": "2"},
+      {"type": "oval"},
+      {"image": "d2.svg"}
+    ]},
+    {"shape": [
+      {"shapeId": "3"},
+      {"type": "emerald"},
+      {"image": "d3.svg"}
+    ]},
+    {"shape": [
+      {"shapeId": "4"},
+      {"type": "pear"},
+      {"image": "d4.svg"}
+    ]},
+    {"shape": [
+      {"shapeId": "5"},
+      {"type": "radiant"},
+      {"image": "d5.svg"}
+    ]},
+    {"shape": [
+      {"shapeId": "6"},
+      {"type": "cushion"},
+      {"image": "d6.svg"}
+    ]},
+    {"shape": [
+      {"shapeId": "7"},
+      {"type": "asscher"},
+      {"image": "d7.svg"}
+    ]}
+  ]
+}
