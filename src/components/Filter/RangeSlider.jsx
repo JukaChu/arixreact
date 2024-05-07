@@ -1,8 +1,10 @@
 import {useLocation} from "react-router-dom";
-import React from "react";
+import React, {useState} from "react";
 
 function RangeSlider({name, min, max, currency, value, onChange, step, type, steps, editable, labels}) {
 
+    const [maximumValue, setMaximumValue] = useState(max);
+    const [minimumValue, setMinimumValue] = useState(min);
 
     const [minValue, setMinValue] = React.useState(value ? value.min : min);
     const [maxValue, setMaxValue] = React.useState(value ? value.max : max);
@@ -25,19 +27,35 @@ function RangeSlider({name, min, max, currency, value, onChange, step, type, ste
 
     const handleMinChange = e => {
         e.preventDefault();
-        const newMinVal = Math.min(+e.target.value, maxValue - step);
-        if (!value) setMinValue(newMinVal);
+        let newMinVal = Math.min(+e.target.value, maxValue - step);
+        if (!value) {
+            setMinValue(newMinVal)
+        } else {
+            if (e.target.value < min) {
+                e.target.value = min;
+                newMinVal = min;
+                setMaxValue(min);
+            }
+        }
 
 
-        console.log(maxValue);
         onChange({min: newMinVal, max: maxValue});
 
     };
 
     const handleMaxChange = e => {
         e.preventDefault();
-        const newMaxVal = Math.max(+e.target.value, minValue + step);
-        if (!value) setMaxValue(newMaxVal);
+        let newMaxVal = Math.max(+e.target.value, minValue + step);
+        if (!value) {
+            setMaxValue(newMaxVal)
+        } else {
+            if (e.target.value > max) {
+                e.target.value = max;
+                newMaxVal = max;
+                setMaxValue(max);
+            }
+        }
+
         onChange({min: minValue, max: newMaxVal});
 
     };
@@ -58,6 +76,7 @@ function RangeSlider({name, min, max, currency, value, onChange, step, type, ste
     if (steps === true) {
         stepsValue['--st'] = labels.length;
     }
+
 
     function handleChangeValues(el) {
 
@@ -84,10 +103,34 @@ function RangeSlider({name, min, max, currency, value, onChange, step, type, ste
 
                 <div className={steps === true ? 'range-wrapper hide-text' : 'range-wrapper'} style={selectedSteps}>
                     <div className={type === 'single' ? 'range-text range-text--single' : 'range-text'}>
-                        <p className={min === value.min ? 'opac' : ''}>{currency}<span>{type === 'single' ? min : value.min}</span>
+                        <p className={min === value.min ? 'opac' : ''}>
+                            {currency}
+                            {editable === true ? <input type="number" value={value.min} min={min} max={value.max}
+                                                        onChange={handleMinChange}
+                                                        onKeyPress={(event) => {
+                                                            if (!/[0-9]/.test(event.key)) {
+                                                                event.preventDefault();
+
+                                                            }
+                                                        }}/> : <span>{type === 'single' ? min : value.min}</span>}
                         </p>
                         <p className="current-section">{currency}<span>{value.min}</span></p>
-                        <p className={max === value.max ? 'opac' : ''}>{currency}<span>{type === 'single' ? max : value.max}</span>
+                        <p className={max === value.max ? 'opac' : ''}>
+                            {currency}
+                            {editable === true ? <input type="number" value={value.max}
+                                                        min={value.min} max={max}
+                                                        onChange={handleMaxChange}
+                                                        onKeyPress={(event) => {
+                                                            console.log(event.target);
+                                                            if (!/[0-9]/.test(event.key)) {
+                                                                event.preventDefault();
+                                                            } else {
+                                                                if (event.target.value > max) {
+                                                                    console.log(event.target.value);
+                                                                    event.target.value = max;
+                                                                }
+                                                            }
+                                                        }}/> : <span>{type === 'single' ? min : value.max}</span>}
                         </p>
                     </div>
                     <div className="controls-range" style={stepsValue}>
@@ -117,14 +160,16 @@ function RangeSlider({name, min, max, currency, value, onChange, step, type, ste
 
                         {steps === true ? <div className="sec-rails">
                             {labels.map((k, index) => (
-                                <div className={minValue <= index && maxValue - 1 >= index   ? 'add-line-rail active' : 'add-line-rail'} key={k} data-val={index} onClick={(e) => (
+                                <div
+                                    className={minValue <= index && maxValue - 1 >= index ? 'add-line-rail active' : 'add-line-rail'}
+                                    key={k} data-val={index} onClick={(e) => (
                                     handleChangeValues(e)
 
-                                    )}><p>{k}</p></div>
+                                )}><p>{k}</p></div>
                             ))}
                         </div> : ""}
 
-                        <div className="rails" >
+                        <div className="rails">
                             <div className="control" style={{left: `${minPos}%`}}>
 
                             </div>

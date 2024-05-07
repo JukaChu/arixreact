@@ -458,6 +458,24 @@
       opacity: 0.5;
     }
 
+    input {
+      display: flex;
+      width: auto;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 15px;
+      line-height: 1;
+      color: $main-color;
+      transition: all 0.3s ease-out;
+      padding: 4px;
+      border: 1px solid rgba(255, 255, 255, 0);
+      background: rgba(255, 255, 255, 0);
+
+      &:hover, &:focus, &:active {
+        border-color: $main-color;
+      }
+    }
+
   }
 
   .current-section {

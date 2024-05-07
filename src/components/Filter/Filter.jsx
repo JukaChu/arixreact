@@ -147,7 +147,7 @@ const Filter = () => {
                                 value={valuePrice}
                                 type={'double'}
                                 onChange={setValuePrice}
-                                editable={false}
+                                editable={true}
                                 steps={false}
                                 labels={false}
                             />
