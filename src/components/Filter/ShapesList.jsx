@@ -2,10 +2,17 @@ import React, {useState, useMemo, useEffect} from 'react';
 import json from '../../data/data'
 import SingleShape from "./SingleShape";
 
-function Shapes() {
+function Shapes({activeShape, setActiveShape}) {
 
     const [data, setData] = useState([]);
-    const [activeShape, setActiveShape] = useState(0);
+
+
+
+    const handleTabsShapes = (e) => {
+        // update the state to tab1
+        setActiveShape(e);
+    };
+
     const getData = () => {
         fetch('data.json'
             , {
@@ -32,7 +39,7 @@ function Shapes() {
         // console.log(data['shapes']);
         // console.log(data);
     }, []);
-    console.log(data);
+    // console.log(data);
 
     return (
 
@@ -46,6 +53,7 @@ function Shapes() {
                         obj={item['shape']}
                         index={index}
                         active={activeShape}
+                        click={setActiveShape}
                     />
 
                 ))

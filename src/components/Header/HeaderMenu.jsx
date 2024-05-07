@@ -2,7 +2,7 @@ import React from 'react';
 import MenuLink from './MenuLink';
 import {BrowserRouter as Router, Route, Routes} from "react-router-dom";
 
-function HeaderMenu(props) {
+function SearchDiamond(props) {
 
     return (
         <>
@@ -19,11 +19,4 @@ function HeaderMenu(props) {
     )
 }
 
-export default HeaderMenu;
-
-<button className={index === activeShape ? 'single-shape active' : 'single-shape'} key={index}>
-    <div className="ic">
-        <img src="./" alt=""/>
-    </div>
-
-</button>
+export default SearchDiamond;

@@ -3,7 +3,13 @@
   <component name="ChangeListManager">
     <list default="true" id="14c00781-fe9c-4fff-a40e-6f2865b2669c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_home.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/_home.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Filter/Filter.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Filter/Filter.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Filter/RangeSlider.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Filter/RangeSlider.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Filter/ShapesList.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Filter/ShapesList.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Filter/SingleShape.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Filter/SingleShape.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header/HeaderMenu.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/HeaderMenu.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Search/SearchTemplate.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Search/SearchTemplate.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,7 +37,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components/Filter" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/images" />
     <property name="list.type.of.created.stylesheet" value="SCSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -45,16 +51,17 @@
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Yomona\Desktop\project\p\00reactarixess\src\components\Search" />
+      <recent name="C:\Users\Yomona\Desktop\project\p\00reactarixess\src\data" />
+      <recent name="C:\Users\Yomona\Desktop\project\p\00reactarixess\src\components\Header" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Yomona\Desktop\project\p\00reactarixess\src\images" />
+      <recent name="C:\Users\Yomona\Desktop\project\p\00reactarixess\src\components\Search" />
       <recent name="C:\Users\Yomona\Desktop\project\p\00reactarixess\src\components\Filter" />
       <recent name="C:\Users\Yomona\Desktop\project\p\00reactarixess\public" />
       <recent name="C:\Users\Yomona\Desktop\project\p\00reactarixess\src\components\Pages" />
-      <recent name="C:\Users\Yomona\Desktop\project\p\00reactarixess\src\components\Header" />
-      <recent name="C:\Users\Yomona\Desktop\project\p\00reactarixess\src\components" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Yomona\Desktop\project\p\00reactarixess\src\data" />
-      <recent name="C:\Users\Yomona\Desktop\project\p\00reactarixess\src\components\Header" />
     </key>
   </component>
   <component name="RunManager" selected="npm.npm start">
@@ -84,7 +91,8 @@
       <updated>1714650968249</updated>
       <workItem from="1714650969952" duration="12881000" />
       <workItem from="1714717776503" duration="31642000" />
-      <workItem from="1714806645009" duration="680000" />
+      <workItem from="1714806645009" duration="1811000" />
+      <workItem from="1715070435324" duration="18735000" />
     </task>
     <task id="LOCAL-00001" summary="coms">
       <created>1714750274342</created>
@@ -100,7 +108,21 @@
       <option name="project" value="LOCAL" />
       <updated>1714806878938</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="coms">
+      <created>1714807392588</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1714807392588</updated>
+    </task>
+    <task id="LOCAL-00004" summary="coms">
+      <created>1714807423493</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1714807423493</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -115,17 +137,17 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1010" y="447" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/-1920.360.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1714752978506" />
-    <state x="905" y="294" key="CommitChangelistDialog2" timestamp="1714807418771">
+    <state x="905" y="294" key="CommitChangelistDialog2" timestamp="1714807423083">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="905" y="294" key="CommitChangelistDialog2/-1920.360.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1714807418771" />
-    <state x="872" y="433" key="Vcs.Push.Dialog.v2" timestamp="1714807397262">
+    <state x="905" y="294" key="CommitChangelistDialog2/-1920.360.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1714807423083" />
+    <state x="872" y="433" key="Vcs.Push.Dialog.v2" timestamp="1714807427472">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="872" y="433" key="Vcs.Push.Dialog.v2/-1920.360.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1714807397262" />
-    <state x="943" y="315" key="search.everywhere.popup" timestamp="1714660063145">
+    <state x="872" y="433" key="Vcs.Push.Dialog.v2/-1920.360.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1714807427472" />
+    <state x="943" y="315" width="672" height="678" key="search.everywhere.popup" timestamp="1715071691061">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="943" y="315" key="search.everywhere.popup/-1920.360.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1714660063145" />
+    <state x="943" y="315" width="672" height="678" key="search.everywhere.popup/-1920.360.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1715071691061" />
   </component>
 </project>

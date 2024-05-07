@@ -5,6 +5,7 @@ import {useSearchParams} from "react-router-dom";
 import TopTextLi from "../Header/TopTextLi";
 import logo from "../Header/logo-header.svg";
 import ShapesList from "./ShapesList";
+import resetIc from "./images/reset-ic.svg";
 
 
 function handleSubmit(event, type) {
@@ -26,6 +27,7 @@ function handleSubmit(event, type) {
 
 
 const Filter = () => {
+    const defaultTab = 0;
     const [activeTab, setActiveTab] = useState(0);
 
 
@@ -33,6 +35,7 @@ const Filter = () => {
         // update the state to tab1
         setActiveTab(e);
     };
+
 
     const params4 = new URLSearchParams({
         natural: 'natural diamond',
@@ -67,9 +70,42 @@ const Filter = () => {
     // console.log(searchParams.getAll());
     // handleSubmit();
 
-
+    const defaultPrice = {min: 100, max: 15000};
     const [valuePrice, setValuePrice] = useState({min: 1200, max: 9000});
-    const [valueCarats, setValueCarat] = useState({min: 0, max: 13});
+
+    const defaultCarat = {min: 0, max: 13};
+    const [valueCarats, setValueCarat] = useState({min: 2, max: 10});
+
+    const defaultCalarity = {min: 0, max: 8};
+    const [valueClarity, setValueClarity] = useState({min: 1, max: 7});
+    const clarities = ['SI2', 'SI1', 'VS2', 'VS1', 'VVS2', 'VVS1', 'IF', 'FL'];
+
+    const defaultCut = {min: 0, max: 4};
+    const [valueCut, setValueCut] = useState({min: 2, max: 4});
+    const cuts = ['Good', 'Very good', 'Ideal', 'Astor ideal'];
+
+    const defaultColor = {min: 0, max: 8};
+    const [valueColor, setValueColor] = useState({min: 2, max: 6});
+    const colors = ['K', 'J', 'I', 'H', 'G', 'F', 'E', 'D'];
+
+    const defaultShape = 0;
+    const [activeShape, setActiveShape] = useState(0);
+
+    function toggleClass(e) {
+        e.preventDefault();
+        e.stopPropagation();
+        e.target.classList.toggle('open');
+    }
+
+    const handleDefault = (e) => {
+        setActiveTab(defaultTab);
+        setValueColor(defaultColor);
+        setValueCut(defaultCut);
+        setValueClarity(defaultCalarity);
+        setValueCarat(defaultCarat);
+        setValuePrice(defaultPrice);
+        setActiveShape(defaultShape);
+    };
 
     return (
         <>
@@ -109,9 +145,11 @@ const Filter = () => {
                                 step={10}
                                 currency={'$'}
                                 value={valuePrice}
-                                type={'single'}
+                                type={'double'}
                                 onChange={setValuePrice}
                                 editable={false}
+                                steps={false}
+                                labels={false}
                             />
 
                             <RangeSlider
@@ -125,12 +163,15 @@ const Filter = () => {
                                 type={'double'}
                                 onChange={setValueCarat}
                                 editable={false}
+                                steps={false}
+                                labels={false}
                             />
                             {/*<RangeSlider/>*/}
 
                         </div>
                     </div>
                 </div>
+
                 <div className="filter-line filter-shape">
                     <div className="container">
                         <div className="filter-cont">
@@ -138,14 +179,96 @@ const Filter = () => {
                                 <p>Shape</p>
 
 
-                                <ShapesList />
+                                <ShapesList
+                                    activeShape={activeShape}
+                                    setActiveShape={setActiveShape}
+                                />
 
                             </div>
                         </div>
                     </div>
 
                 </div>
+
+                <div className="filter-line filter-clarities">
+                    <div className="container">
+                        <div className="filter-cont">
+
+                            <RangeSlider
+                                key={3}
+                                name={'Clarity'}
+                                min={0}
+                                max={8}
+                                step={1}
+                                currency={''}
+                                value={valueClarity}
+                                type={'double'}
+                                onChange={setValueClarity}
+                                editable={false}
+                                steps={true}
+                                labels={clarities}
+
+                            />
+
+                            <RangeSlider
+                                key={4}
+                                name={'Cut'}
+                                min={0}
+                                max={4}
+                                step={1}
+                                currency={''}
+                                value={valueCut}
+                                type={'double'}
+                                onChange={setValueCut}
+                                editable={false}
+                                steps={true}
+                                labels={cuts}
+                            />
+                            <RangeSlider
+                                key={5}
+                                name={'Color'}
+                                min={0}
+                                max={8}
+                                step={1}
+                                currency={''}
+                                value={valueColor}
+                                type={'double'}
+                                onChange={setValueColor}
+                                editable={false}
+                                steps={true}
+                                labels={colors}
+                            />
+                        </div>
+                    </div>
+                </div>
+                <div className="filter-line filter-additive">
+                    <div className="container">
+                        <div className="filter-cont">
+                            <button className="reset-filter" onClick={() => {
+                                handleDefault();
+                            }}>
+                                <div className="img">
+                                    <img src={resetIc} alt=""/>
+                                </div>
+                                <p>Reset filters</p>
+                            </button>
+
+                            <div className="more-filters">
+                                <div className="button-more" onClick={(e) => {
+                                    toggleClass(e);
+                                }}>
+                                    advanced filters
+                                </div>
+
+                                <div className="more-list">
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
+
 
         </>
     )
