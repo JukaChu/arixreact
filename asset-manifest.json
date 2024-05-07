@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/arixreact/static/css/main.e41d657e.css",
-    "main.js": "/arixreact/static/js/main.715f1c7a.js",
+    "main.css": "/arixreact/static/css/main.b84b083e.css",
+    "main.js": "/arixreact/static/js/main.e92d5a90.js",
     "static/js/453.a120c663.chunk.js": "/arixreact/static/js/453.a120c663.chunk.js",
     "static/media/Carla.otf": "/arixreact/static/media/Carla.5a7d2853611ca67633f7.otf",
     "static/media/Gotham-BlackItalic.eot": "/arixreact/static/media/Gotham-BlackItalic.87b2fe7f18ebe2095fb3.eot",
@@ -36,6 +36,7 @@
     "static/media/Gotham-Ultra.eot": "/arixreact/static/media/Gotham-Ultra.a2bedd00afd4f1879101.eot",
     "static/media/Gotham-Bold.ttf": "/arixreact/static/media/Gotham-Bold.b77f9460e9e9c62c7b2f.ttf",
     "static/media/Gotham-Ultra.ttf": "/arixreact/static/media/Gotham-Ultra.8d5b601b3136fb01bd2d.ttf",
+    "static/media/diamond-jpg.jpg": "/arixreact/static/media/diamond-jpg.dd128cc6144d9178d88f.jpg",
     "static/media/Gotham-BlackItalic.woff": "/arixreact/static/media/Gotham-BlackItalic.9956e409cdfe9029986b.woff",
     "static/media/Gotham-BookItalic.woff": "/arixreact/static/media/Gotham-BookItalic.57c95afc367ff9b927b5.woff",
     "static/media/Gotham-MediumItalic.woff": "/arixreact/static/media/Gotham-MediumItalic.aeab7fc20d15af97ac6f.woff",
@@ -76,19 +77,20 @@
     "static/media/d2.svg": "/arixreact/static/media/d2.02a3a30879026615196d.svg",
     "static/media/d5.svg": "/arixreact/static/media/d5.b1429303a3d53911336c.svg",
     "static/media/diamond-select.svg": "/arixreact/static/media/diamond-select.df0675a85f9d54346ac92f49d6777d0e.svg",
-    "static/media/d4.svg": "/arixreact/static/media/d4.841c41e75002318e023a.svg",
+    "static/media/d4.svg": "/arixreact/static/media/d4.841c41e75002318e023a95338bd4c244.svg",
     "static/media/fav-ic.svg": "/arixreact/static/media/fav-ic.8c78dd9ace8a3051bff45342d53bed5a.svg",
     "static/media/diamond-ic.svg": "/arixreact/static/media/diamond-ic.a180fd7be25cc6433bada3ee3245d6ba.svg",
     "static/media/cart-ic.svg": "/arixreact/static/media/cart-ic.7d0369955967819e24630a413efffb42.svg",
     "static/media/search-ic.svg": "/arixreact/static/media/search-ic.608bcbaace376b2101134c031a5ca87a.svg",
+    "static/media/reset-ic.svg": "/arixreact/static/media/reset-ic.dfcfc0d8afc1888992695c03e3fc6658.svg",
     "index.html": "/arixreact/index.html",
     "static/media/expand_more.svg": "/arixreact/static/media/expand_more.9196a8473ba42c39c7cd.svg",
-    "main.e41d657e.css.map": "/arixreact/static/css/main.e41d657e.css.map",
-    "main.715f1c7a.js.map": "/arixreact/static/js/main.715f1c7a.js.map",
+    "main.b84b083e.css.map": "/arixreact/static/css/main.b84b083e.css.map",
+    "main.e92d5a90.js.map": "/arixreact/static/js/main.e92d5a90.js.map",
     "453.a120c663.chunk.js.map": "/arixreact/static/js/453.a120c663.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e41d657e.css",
-    "static/js/main.715f1c7a.js"
+    "static/css/main.b84b083e.css",
+    "static/js/main.e92d5a90.js"
   ]
 }
