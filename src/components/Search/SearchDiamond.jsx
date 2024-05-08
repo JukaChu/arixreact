@@ -6,13 +6,13 @@ function SearchDiamond({handleCompareList, number, handleFavList, diamondInfos, 
     const [currentState, setCurrentState] = useState(false);
 
 
-    function toggleClass() {
-        setCurrentState(!currentState);
+    function toggleClass(e) {
+        e.target.closest('.search-items__single').classList.toggle('open');
     }
 
     return (
         <>
-            <div className={currentState === true ? 'search-items__single open' : 'search-items__single'}
+            <div className='search-items__single'
                  data-id={number}>
                 <div className="search-diamond">
                     <div className="container">
