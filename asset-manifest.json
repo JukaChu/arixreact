@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/arixreact/static/css/main.b29482a7.css",
+    "main.css": "/arixreact/static/css/main.ab6e605a.css",
     "main.js": "/arixreact/static/js/main.e1793c23.js",
     "static/js/453.a120c663.chunk.js": "/arixreact/static/js/453.a120c663.chunk.js",
     "static/media/Carla.otf": "/arixreact/static/media/Carla.5a7d2853611ca67633f7.otf",
@@ -85,12 +85,12 @@
     "static/media/reset-ic.svg": "/arixreact/static/media/reset-ic.dfcfc0d8afc1888992695c03e3fc6658.svg",
     "index.html": "/arixreact/index.html",
     "static/media/expand_more.svg": "/arixreact/static/media/expand_more.9196a8473ba42c39c7cd.svg",
-    "main.b29482a7.css.map": "/arixreact/static/css/main.b29482a7.css.map",
+    "main.ab6e605a.css.map": "/arixreact/static/css/main.ab6e605a.css.map",
     "main.e1793c23.js.map": "/arixreact/static/js/main.e1793c23.js.map",
     "453.a120c663.chunk.js.map": "/arixreact/static/js/453.a120c663.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b29482a7.css",
+    "static/css/main.ab6e605a.css",
     "static/js/main.e1793c23.js"
   ]
 }
