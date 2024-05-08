@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/arixreact/static/css/main.ab6e605a.css",
-    "main.js": "/arixreact/static/js/main.e1793c23.js",
+    "main.js": "/arixreact/static/js/main.db846605.js",
     "static/js/453.a120c663.chunk.js": "/arixreact/static/js/453.a120c663.chunk.js",
     "static/media/Carla.otf": "/arixreact/static/media/Carla.5a7d2853611ca67633f7.otf",
     "static/media/Gotham-BlackItalic.eot": "/arixreact/static/media/Gotham-BlackItalic.87b2fe7f18ebe2095fb3.eot",
@@ -86,11 +86,11 @@
     "index.html": "/arixreact/index.html",
     "static/media/expand_more.svg": "/arixreact/static/media/expand_more.9196a8473ba42c39c7cd.svg",
     "main.ab6e605a.css.map": "/arixreact/static/css/main.ab6e605a.css.map",
-    "main.e1793c23.js.map": "/arixreact/static/js/main.e1793c23.js.map",
+    "main.db846605.js.map": "/arixreact/static/js/main.db846605.js.map",
     "453.a120c663.chunk.js.map": "/arixreact/static/js/453.a120c663.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ab6e605a.css",
-    "static/js/main.e1793c23.js"
+    "static/js/main.db846605.js"
   ]
 }
