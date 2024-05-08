@@ -3,9 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="14c00781-fe9c-4fff-a40e-6f2865b2669c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_home.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/_home.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Filter/Filter.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Filter/Filter.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Filter/RangeSlider.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Filter/RangeSlider.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,7 +85,7 @@
       <workItem from="1714650969952" duration="12881000" />
       <workItem from="1714717776503" duration="31642000" />
       <workItem from="1714806645009" duration="1811000" />
-      <workItem from="1715070435324" duration="20949000" />
+      <workItem from="1715070435324" duration="21693000" />
     </task>
     <task id="LOCAL-00001" summary="coms">
       <created>1714750274342</created>
@@ -125,7 +122,14 @@
       <option name="project" value="LOCAL" />
       <updated>1715094186566</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="coms">
+      <created>1715098778041</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1715098778041</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -140,14 +144,14 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1010" y="447" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/-1920.360.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1714752978506" />
-    <state x="905" y="294" key="CommitChangelistDialog2" timestamp="1715098728405">
+    <state x="905" y="294" key="CommitChangelistDialog2" timestamp="1715098777128">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="905" y="294" key="CommitChangelistDialog2/-1920.360.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1715098728405" />
-    <state x="872" y="433" key="Vcs.Push.Dialog.v2" timestamp="1715094188847">
+    <state x="905" y="294" key="CommitChangelistDialog2/-1920.360.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1715098777128" />
+    <state x="872" y="433" key="Vcs.Push.Dialog.v2" timestamp="1715098780252">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="872" y="433" key="Vcs.Push.Dialog.v2/-1920.360.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1715094188847" />
+    <state x="872" y="433" key="Vcs.Push.Dialog.v2/-1920.360.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1715098780252" />
     <state x="943" y="315" width="672" height="678" key="search.everywhere.popup" timestamp="1715071691061">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>

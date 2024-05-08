@@ -1161,12 +1161,12 @@ $thumb-size: 13px;
 
       &.path1 {
         //fill: $main-color;
-        stroke: $main-color;
+        stroke: rgba(255, 255, 255, 0);
         stroke-width: 2px;
       }
 
       &.path2 {
-        fill: rgba(255, 255, 255, 0);
+        fill: $main-color;
       }
     }
   }
@@ -1214,7 +1214,7 @@ $thumb-size: 13px;
       svg {
         path {
           &.path2 {
-            //fill: #FF0000;
+            fill: #FF0000;
           }
 
           &.path1 {
